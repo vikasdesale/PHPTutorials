@@ -1,0 +1,13 @@
+<?php
+$x = "Hello world!";
+$x = null;
+var_dump($x);
+$name = "Shubham Dattatrya Shendage";
+echo strlen($name);
+echo "<br>";
+echo strrev($name);
+
+echo "<br>";
+
+echo strpos($name,"Dattatrya");
+?>

@@ -1,0 +1,19 @@
+<?php
+$t = date("H");
+
+if ($t < "20") {
+    echo "Have a good day!";
+}
+$x=11;
+if($x%2 === 0)
+{
+	echo"<br>";
+	echo"Even";
+}
+else
+{
+	echo"<br>";
+	echo"odd";
+}
+?>
+

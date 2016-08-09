@@ -1,0 +1,22 @@
+<?php
+$numbers = array(4, 6, 2, 22, 11);
+$arrlength = count($numbers);
+sort($numbers);
+echo"Ascending  order :";
+echo"<br>";
+
+for($x = 0; $x < $arrlength; $x++) {
+    echo $numbers[$x];
+    echo "<br>";
+}
+echo"<br>";
+echo"Descending  order :";
+echo"<br>";
+
+rsort($numbers);
+
+for($x = 0; $x < $arrlength; $x++) {
+    echo $numbers[$x];
+    echo "<br>";
+}
+?>
